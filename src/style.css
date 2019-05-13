@@ -1,0 +1,26 @@
+@media screen and (max-width:1088px){
+    .header{
+        padding-left: 100px;
+    }
+    .content{
+        width: 960px;
+    }
+    .content .contentRight{
+        display: block;
+    }
+}
+@media screen and (max-width:940px){
+    .header{
+        width: 880px;
+    }
+    .content{
+        width: 640px;
+    }
+    .content .contentRight{
+        display: none
+    }
+}
+a{
+    text-decoration: none;
+    cursor : pointer;
+}
